@@ -6,52 +6,36 @@
   <title>Calculator Testing</title>
   <link rel="stylesheet" href="">
 </head>
-<body>
+<body style="background-color:whitesmoke;">
   
     <h1>A Lambda Expression Calculator</h1>
+    <!-- (lambda = function used as data) -->
     <h2>Now with JASMINE</h2>
-  <fieldset>
+  <fieldset style="background-color:azure;">
     <legend>Calculate3001</legend>
 
-    <label>
-      <input id="userInput1" type="number" name="inputValue1"  placeholder=" 1st # ">
-    </label>
-    <!-- unneeded from initial calculator -->
-    <!-- <p></p>
-    <label>
-      <input id="userInput2" type="number" name="inputValue2"  placeholder=" 2nd # ">
-    </label> -->
+    <input id="userInput" type="number" name="inputValue"  placeholder=" #? " autofocus>
     <hr/>
 
-    <label>
-      <button id="addButton" type="button" value="adder"><h2> + </h2></button>
-    </label>
-    <label>
-      <button id="subtractButton" type="button" value="subtractor"><h2> - </h2></button>
-    </label>
-    <label>
-      <button id="multiplyButton" type="button" value="multiplier"><h2> x </h2></button>
-    </label>
-    <label>
-      <button id="divideButton" type="button" value="divider"><h2> ÷ </h2></button>
-    </label>
+    <button id="addButton" type="button" value="adder"><h2> + </h2></button>
+    <button id="subtractButton" type="button" value="subtractor"><h2> - </h2></button>
+    <button id="multiplyButton" type="button" value="multiplier"><h2> x </h2></button>
+    <button id="divideButton" type="button" value="divider"><h2> ÷ </h2></button>
+    <button id="squareButton" type="button" value="squarer"><h2> #² </h2></button>
+    <button id="sqRootButton" type="button" value="sqRooter"><h2> √ </h2></button>
 
     <hr/>
     <h1><div id="resultsDiv"> = </div></h1>
-<!-- 
     <hr/>
     <button id="buttonResetEl" type="reset" name="clearButton">Clear Form</button>
- -->
   </fieldset>
 
- <!--  <div>
+  <div>
     <h1>Writing Math Tests</h1>
     <h3> Instructions </h3>
-
     <p>Your task is to download the stand-alone version of Jasmine and author failing unit tests for each of the functions listed below and then make each one pass.</p>
 
     <h4>Unit Tests</h4>
-
     <ol>
       <li>Write unit tests to check for the existence of the following functions:
         <ol>
@@ -65,7 +49,7 @@
       </li>
       <li>Write unit tests that will verify the expected output of each of those functions.</li>
     </ol>
-  </div> -->
+  </div>
    
   <div>
     <h3> User Interface </h3>
@@ -79,5 +63,6 @@
     </ol>
   </div>
 
+<script src="js/main.js"></script>
 </body>
 </html>
