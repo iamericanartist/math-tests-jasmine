@@ -1,6 +1,9 @@
 # Writing Math Tests
 ##Modern JavaScript / Testing / Writing Math Tests 
 
+![Math Tests screenshot](images/mathTests.jpg?raw=true "Math Tests Screenshot")
+[Check it out on CODEPEN](http://codepen.io/IAmericanArtist/pen/VjbVXv)
+
 ## Instructions
 
 Your task is to download the stand-alone version of **Jasmine** and author failing unit tests for each of the functions listed below and then make each one pass.
